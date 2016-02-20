@@ -4,7 +4,7 @@ class Medicos{
 	public $dadosDoPaciente;
 
 	public function obtemFicha($dadosPaciente = null){
-		return $this->dadosDoPaciente = $dadosDoPaciente;
+		$this->dadosDoPaciente = $dadosPaciente;
 	}
 
 	public function lerDadosPasciente(){

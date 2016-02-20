@@ -17,7 +17,7 @@ $impressaoDoutor = $pacientes->getFixa();
 //Logica do medico
 $medico = new Medicos;
 $medico->obtemFicha($impressaoDoutor);
-$impressaoDoMedicoEmTela->$medico->lerDadosPacientes();
+$impressaoDoMedicoEmTela = $medico->lerDadosPasciente();
 
 ?>
 
