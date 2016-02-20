@@ -6,7 +6,7 @@ class Pacientes{
 	public $nomePaciente;
 	
 	public function setNomePaciente($nome = null){
-		if(!is_null(nome)){
+		if(!is_null($nome)){
 			$this->nomePaciente = $nome;
 		}
 	}
@@ -22,7 +22,7 @@ class Pacientes{
 	public function getFixa(){
 		return "O Atendimento e para o paciente:
 			{$this->nomePaciente} e o numero de
-			Atendimento e: {$this->nomeMinhaConsulta}
+			Atendimento e: {$this->numeroMinhaConsulta}
 			";
 	}
 
