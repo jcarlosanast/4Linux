@@ -3,8 +3,8 @@ class Medicos{
 
 	public $dadosDoPaciente;
 
-	public function obtemFica(){
-		$this->dadosDoPaciente = $dadosDoPaciente;
+	public function obtemFicha($dadosPaciente = null){
+		return $this->dadosDoPaciente = $dadosDoPaciente;
 	}
 
 	public function lerDadosPasciente(){
